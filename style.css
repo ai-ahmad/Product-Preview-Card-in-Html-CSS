@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300&family=Gelasio:wght@400;600&family=Montserrat:wght@300&display=swap');
+
+
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Changa', sans-serif;
+font-family: 'Gelasio', serif;
+font-family: 'Montserrat', sans-serif;
+}
+.card {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width:650px;
+ height:490px;
+ border-radius: 20px;
+ background-color: hsl(0, 0%, 100%);
+}
+
+.image1 {
+    width:700pxpx;
+    height:490px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 3px;
+    margin-left: -14px;
+    
+}
+
+#name {
+  font-size: 1rem;
+  color:hsl(228, 12%, 48%);
+  font-weight: bold;
+  margin-left: 30px;
+  letter-spacing: 8px;
+
+}
+
+h4 {
+  font-size: 2rem;
+  position:relative;
+  top:-18px;
+  margin-left:30px;
+  
+}
+
+#nema{
+  font-size: 16px;
+  color:darkcyan;
+  position: relative;
+  top:-50px;
+  margin-left: 30px;
+  color:hsl(228, 12%, 48%);
+}
+
+#span1{
+  font-family: sans-serif;
+  font-size: 3rem;
+  color:hsl(158, 36%, 37%);;
+  margin-left:30px;
+  font-weight: bold;
+}
+
+#span2{
+  font-size: 1rem;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  position: relative;
+  top:-9px;
+}
+
+
+button{
+  text-align: center;
+  border-color: white;
+  width:270px;
+  height:50px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  font-size: 20px;
+  color:hsl(30, 38%, 92%);
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.icon1{
+  margin-top: 10px;
+  padding-right:10px;
+}
+
+.container {
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.prices{  
+  margin-top: -40px;
+}
+
+@media only scren and(min-width 600px)
